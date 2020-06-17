@@ -346,7 +346,7 @@
                     $('input[name=appname]').val('<?= config('app.appname') ?>')
                     $('input[name=appfullname]').val('<?= config('app.appfullname') ?>')
                     $('input[name=appinfo]').val('<?= config('app.appinfo') ?>')
-                    $('input[name=appdesc]').val('<?= config('app.appdesc') ?>')
+                    $('textarea[name=appdesc]').text('<?= config('app.appdesc') ?>')
                     $('input[name=developer]').val('<?= config('app.developer') ?>')
 
 
